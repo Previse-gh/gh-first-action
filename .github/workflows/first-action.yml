@@ -10,4 +10,9 @@ jobs:
         run: echo "Hello World"
       - name: Print goodbye
         run: echo "Done - bye!"
+      - name: combine greeting & goodbye
+        run: |
+            echo "Hello World"
+            echo "Done - bye!"
+            
         
